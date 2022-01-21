@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "hallowed-oven-338916-tfstate"
     prefix = "env/dev"
   }
 }
